@@ -2,8 +2,8 @@ import os
 import numpy as np
 
 # Ensure target directories exist before saving
-os.makedirs("week05/data", exist_ok=True)
-os.makedirs("week05/output", exist_ok=True)
+os.makedirs("Week05/data", exist_ok=True)
+os.makedirs("Week05/output", exist_ok=True)
 
 # ==============================================================================
 # F1. Incompatible shapes
@@ -72,17 +72,17 @@ col_max = clinical_features.max(axis=0)
 normalized_features = (clinical_features - col_min) / (col_max - col_min)
 
 # 1. Save and reload .npy format
-np.save("week05/data/patient_data.npy", patient_data)
-loaded_npy = np.load("week05/data/patient_data.npy")
+np.save("Week05/data/patient_data.npy", patient_data)
+loaded_npy = np.load("Week05/data/patient_data.npy")
 
 # 2. Save and reload .csv format
 np.savetxt(
-    "week05/output/normalized_features.csv",
+    "Week05/output/normalized_features.csv",
     normalized_features,
     delimiter=",",
     fmt="%.4f",
 )
-loaded_csv = np.loadtxt("week05/output/normalized_features.csv", delimiter=",")
+loaded_csv = np.loadtxt("Week05/output/normalized_features.csv", delimiter=",")
 
 # Verification tests
 npy_equal = np.array_equal(patient_data, loaded_npy)
