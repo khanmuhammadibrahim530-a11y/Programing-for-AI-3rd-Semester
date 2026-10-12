@@ -1,0 +1,9 @@
+=== AI Experiment Tracker Summary ===
+
+All Experiments:
+- ID: EXP001 | Model: Logistic regression | Accuracy: 0.85
+- ID: EXP002 | Model: Decision Tree | Accuracy: 0.78
+- ID: EXP003 | Model: K-Nearest Neighbors | Accuracy: 0.92
+
+Best Experiment:
+ID: EXP003 | Model: K-Nearest Neighbors | Accuracy: 0.92

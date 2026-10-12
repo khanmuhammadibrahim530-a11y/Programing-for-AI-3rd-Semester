@@ -7,7 +7,10 @@ authors = [
     { name = "Muhammad Ibrahim", email = "khanmuhammadibrahim530@gmail.com" }
 ]
 requires-python = ">=3.10"
-dependencies = []
+dependencies = [
+    "ipykernel>=7.3.0",
+    "pandas>=2.3.3",
+]
 
 [project.scripts]
 programing-for-ai-2026 = "programing_for_ai_2026:main"

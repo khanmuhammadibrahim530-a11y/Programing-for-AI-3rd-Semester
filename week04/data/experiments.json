@@ -1,0 +1,20 @@
+[
+    {
+        "experiment_id": "EXP001",
+        "model_name": "Logistic regression",
+        "dataset_name": "student performance",
+        "accuracy": 0.85
+    },
+    {
+        "experiment_id": "EXP002",
+        "model_name": "Decision Tree",
+        "dataset_name": "Student performance",
+        "accuracy": 0.78
+    },
+    {
+        "experiment_id": "EXP003",
+        "model_name": "K-Nearest Neighbors",
+        "dataset_name": "student performance",
+        "accuracy": 0.92
+    }
+]
