@@ -1,0 +1,8 @@
+patient_id,age,heart_rate,department
+S001,0,72,Cardio
+S002,30,30,Gen Med
+S003,,80,General-Med
+S004,50,abc,Neurology
+S005,150,90,Orthopedics
+S006,40,220,Cardiology
+S007,60,100,General Medicine

@@ -2,7 +2,6 @@ import csv
 from pathlib import Path
 from student import Student
 
-
 def load_students(file_path):
     """Read student records from CSV and return a list of Student objects."""
     students = []

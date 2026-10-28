@@ -1,0 +1,10 @@
+student_id,column,original_value,decision,reason
+1003,whole row,exact duplicate,Keep first occurrence,All column values match; one redundant row removed
+1004,attendance,110.0,Replace with missing value,Outside the valid range 0–100
+1009,attendance,-5.0,Replace with missing value,Outside the valid range 0–100
+1002,attendance,missing,Fill with 85.0,Program median; original overall median if group has no valid values
+1004,attendance,missing,Fill with 81.0,Program median; original overall median if group has no valid values
+1009,attendance,missing,Fill with 81.0,Program median; original overall median if group has no valid values
+1010,assignment,missing,Fill with column median 80.0,Classroom simulation only; retained imputation flag
+1003,midterm,missing,Fill with column median 72.0,Classroom simulation only; retained imputation flag
+1005,final,missing,Fill with column median 81.0,Classroom simulation only; retained imputation flag

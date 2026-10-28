@@ -1,4 +1,0 @@
-Student Name: python -u "f:\BS AI 3rd Semester\Programing for ai\Programing-for-AI-2026\week3\04_test_students_utils.py"
-Marks: [76.0, 87.0, 98.0]
-Average: 87.00
-Grade: A
